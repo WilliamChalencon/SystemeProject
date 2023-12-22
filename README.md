@@ -2,6 +2,8 @@
 This little script has been made to compare vcf files of multiple biological sample.
 It can compare multiple replicates of a sample between them.
 
+Go to the directory of the script and execute bash ./main.sh
+
 It will ask a directory which contains the sample and retrieve all vcf files on 2 levels.
 If you have multiple sample, it will sort them out by sample but their name needs to be in this kind of format : {3 character for sample name - 1 character for replicate} ex: P15-2
 
@@ -22,3 +24,5 @@ header
 {replicates name : [{position:[nucleotide or mutation, nb of appearance],...},..]}
 
 This script was made by William CHALENCON student at the university of montpellier. An AI was used to help on debugging.
+
+This script was made with VSCode 1.85 through WSL:UBUNTU 20.04
